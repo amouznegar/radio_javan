@@ -10,6 +10,7 @@ class SplashScreen extends StatelessWidget {
   Widget build(BuildContext context) {
 
 
+    //goes to new page
     Future.delayed(Duration(seconds: 10), () async {
 
       Get.toNamed('/dashboard');
